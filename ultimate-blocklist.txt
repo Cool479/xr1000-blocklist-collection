@@ -74,3 +74,39 @@ webminepool.com
 malware-domains.com
 phishing-detector.net
 badware-registry.org
+
+# Expanded Ultimate Blocklist Additions (2026 Update)
+# Appended to your custom collection for deeper tracking and ad protection
+
+# --- Advanced Mobile App & In-App Ad SDKs ---
+ads.mopub.com
+sdk.iad.appledelivery.net
+adcolony.com
+ads.vungle.com
+unityads.unity3d.com
+ironsrc.com
+applovin.com
+tapjoy.com
+chartboost.com
+
+# --- Smart TV, Console, & Streaming Telemetry ---
+click.smartclip.net
+samsungcloudplatform.com
+bingsettings.winportal.microsoft.com
+v20.events.data.microsoft.com
+baidustatic.com
+slogger.active.com
+aslogger.nintendo.net
+conntest.nintendo.com
+ctest.crossplatform.live.com
+
+# --- Popups, Redirects, & Malicious Redirect Vectors ---
+popupads.andromedia.net
+stat-track.com
+clickserve.dartsearch.net
+ad.doubleclick.net
+googleadservices.com
+syndication.exoclick.com
+tsyndicate.com
+ad-maven.com
+popads.net
