@@ -110,3 +110,26 @@ syndication.exoclick.com
 tsyndicate.com
 ad-maven.com
 popads.net
+
+# --- Social Media Trackers & Embedded Widgets ---
+platform.twitter.com
+syndication.twitter.com
+t.co
+connect.facebook.net
+graph.facebook.com
+instagram.com/graphql
+pixel.reddit.com
+
+# --- Known Phishing, Scam, & Malicious Redirects ---
+MalwareDomains.com
+phishing-tracker.com
+dns-lookup-malware.net
+verify-account-security.com
+update-system-validation.net
+
+# --- Aggressive Tracking Pixels & Web Beacons ---
+b.scorecardresearch.com
+pixel.quantserve.com
+sb.scorecardresearch.com
+beacon.tapjoy.com
+engine.adzerk.net
