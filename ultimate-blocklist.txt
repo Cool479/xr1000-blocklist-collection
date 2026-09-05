@@ -1,0 +1,76 @@
+# Ultimate Comprehensive Pi-hole & DumaOS Blocklist
+# Covers Aggressive Advertising, Malware, Telemetry, Cryptominers, and Tracking
+
+# --- Major Advertising & Analytics Networks ---
+pagead2.googlesyndication.com
+securepubads.g.doubleclick.net
+adservice.google.com
+ads.pubmatic.com
+ib.adnxs.com
+ads.mopub.com
+partner.googleadservices.com
+stats.g.doubleclick.net
+adserver.adtech.de
+ads.yahoo.com
+ads.twitter.com
+static.ads-twitter.com
+pixel.facebook.com
+an.facebook.com
+adclick.g.doubleclick.net
+pagead.l.google.com
+afs.googlesyndication.com
+tpc.googlesyndication.com
+google-analytics.com
+ssl.google-analytics.com
+analytics.google.com
+click.discord.com
+ads.reddit.com
+
+# --- Telemetry & Diagnostic Data Collection ---
+telemetry.microsoft.com
+v10.events.data.microsoft.com
+settings-win.data.microsoft.com
+feedback.windows.com
+diagnostics.support.microsoft.com
+telemetry.errbit.com
+samsungads.com
+ngfts.samsungcloudplatform.com
+samsungcloudplatform.com
+log-recollect.samsungcloudplatform.com
+collector.githubapp.com
+telemetry.choc-system.com
+tracking.katsuragawa.net
+metrics.icloud.com
+metrics.mzstatic.com
+gsp-ssl.ls.apple.com
+
+# --- Common Analytics SDKs & Tracking Endpoints ---
+api.amplitude.com
+in.appcenter.ms
+events.mapbox.com
+segment.io
+track.customer.io
+api.mixpanel.com
+heapanalytics.com
+sentry.io
+app-measurement.com
+crashlytics.com
+api.branch.io
+adjust.com
+appsflyer.com
+scorecardresearch.com
+quantserve.com
+b.scorecardresearch.com
+
+# --- Malicious Domains, Phishing & Cryptominers ---
+coinhive.com
+jsecoin.com
+cryptoloot.pro
+authedmine.com
+miner.pr0gramm.com
+kissdog.net
+cnhv.co
+webminepool.com
+malware-domains.com
+phishing-detector.net
+badware-registry.org
