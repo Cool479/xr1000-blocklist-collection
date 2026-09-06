@@ -1,0 +1,45 @@
+# XR1000 Custom Pi-hole Blocklist
+# Curated domains targeting mobile ad SDKs, analytics, telemetry, and smart device trackers
+
+# 1. Telemetry & Analytics
+telemetry.microsoft.com
+v10.events.data.microsoft.com
+diagtrack.commerce.microsoft.com
+metrics.icloud.com
+metrics.mzstatic.com
+sentry.io
+crashlytics.com
+app-measurement.com
+api.amplitude.com
+in.mixpanel.com
+events.mapbox.com
+collector.githubapp.com
+
+# 2. Smart Device & Console Ad Beacons
+ads.youtube.com
+s.youtube.com
+pagead2.googlesyndication.com
+adservice.google.com
+pubads.g.doubleclick.net
+securepubads.g.doubleclick.net
+tous.samsungcloudplatform.com
+config.samsungads.com
+log-config.samsungads.com
+samsungads.com
+lgad.smartshare.lgtvcommon.com
+ads.roku.com
+cooper.roku.com
+scribe.logs.roku.com
+
+# 3. Aggressive Mobile App Ad Networks
+ads.mopub.com
+sdk.iad.applovinh.com
+ads.unity3d.com
+unityads.unity3d.com
+adcolony.com
+vungle.com
+ironsrc.com
+tapjoy.com
+inmobi.com
+flurry.com
+admob.com
