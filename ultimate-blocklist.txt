@@ -1,6 +1,6 @@
 # Ultimate Comprehensive Pi-hole & DumaOS Blocklist
 # Covers Aggressive Advertising, Malware, Telemetry, Cryptominers, and Tracking
-# Includes Expanded Smart TV ACR, Peripheral, and Deep Analytics Rulesets
+# Includes Expanded Smart TV ACR, Peripheral, Deep Analytics, and Android Telemetry Rulesets
 
 # --- Major Advertising & Analytics Networks ---
 0.0.0.0 pagead2.googlesyndication.com
@@ -74,6 +74,43 @@
 0.0.0.0 beacons.gss.xboxlive.com
 0.0.0.0 48.telemetry.microsoft.com
 0.0.0.0 oca.telemetry.microsoft.com
+
+# --- Android Core Telemetry, Metrics, & App Diagnostics ---
+0.0.0.0 android.clients.google.com
+0.0.0.0 update.googleapis.com
+0.0.0.0 clients1.google.com
+0.0.0.0 clients2.google.com
+0.0.0.0 clients3.google.com
+0.0.0.0 clients4.google.com
+0.0.0.0 clients5.google.com
+0.0.0.0 clients6.google.com
+0.0.0.0 mtalk.google.com
+0.0.0.0 alt1-mtalk.google.com
+0.0.0.0 alt2-mtalk.google.com
+0.0.0.0 alt3-mtalk.google.com
+0.0.0.0 alt4-mtalk.google.com
+0.0.0.0 alt5-mtalk.google.com
+0.0.0.0 alt6-mtalk.google.com
+0.0.0.0 alt7-mtalk.google.com
+0.0.0.0 alt8-mtalk.google.com
+0.0.0.0 connectivitycheck.gstatic.com
+0.0.0.0 connectivitycheck.android.com
+0.0.0.0 redirector.gvt1.com
+0.0.0.0 safebrowsing.googleapis.com
+0.0.0.0 firebase-settings.crashlytics.com
+0.0.0.0 firebase-pa.googleapis.com
+0.0.0.0 app-measurement.com
+
+# --- Android OEM-Specific Telemetry (Samsung, Xiaomi, etc.) ---
+0.0.0.0 bigdata.adups.com
+0.0.0.0 bigdata.adsunflower.com
+0.0.0.0 bigdata.adfuture.cn
+0.0.0.0 bigdata.advmob.cn
+0.0.0.0 tracking.miui.com
+0.0.0.0 data.mistat.xiaomi.com
+0.0.0.0 tracking.intl.miui.com
+0.0.0.0 log.av.mm.samsung.com
+0.0.0.0 api.samsungcloudplatform.com
 
 # --- Roku Telemetry, Ad Insertion, & Tracking ---
 0.0.0.0 p.ads.roku.com
