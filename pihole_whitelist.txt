@@ -1,0 +1,12 @@
+# Pi-hole Whitelist Domains (Essential Services & Core Connectivity)
+clientconfig.passport.net
+device.auth.xboxlive.com
+xsts.auth.xboxlive.com
+attestation.xboxlive.com
+cert.mgt.xboxlive.com
+ctldl.windowsupdate.com
+slscr.update.microsoft.com
+time.windows.com
+dns.msftncsi.com
+connectivitycheck.gstatic.com
+ntp.ubuntu.com
