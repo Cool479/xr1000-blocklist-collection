@@ -1,0 +1,124 @@
+# ==========================================
+# CATEGORY 1: GLOBAL AD DELIVERY & INJECTION
+# ==========================================
+0.0.0.0pagead2.googlesyndication.com
+0.0.0.0adservice.google.com
+0.0.0.0googleadservices.com
+0.0.0.0pagead.l.google.com
+0.0.0.0adclick.g.doubleclick.net
+0.0.0.0static.doubleclick.net
+0.0.0.0pubads.g.doubleclick.net
+0.0.0.0securepubads.g.doubleclick.net
+0.0.0.0ads.youtube.com
+0.0.0.0s.youtube.com
+0.0.0.0ad.doubleclick.net
+0.0.0.0googleads.g.doubleclick.net
+0.0.0.0partner.googleadservices.com
+0.0.0.0tpc.googlesyndication.com
+0.0.0.0adserver.adtech.de
+0.0.0.0adserver.yahoo.com
+0.0.0.0ads.yahoo.com
+0.0.0.0adserver.rtk.io
+0.0.0.0ads.mopub.com
+
+# ==========================================
+# CATEGORY 2: MOBILE APPS & SDK MONETIZATION
+# ==========================================
+0.0.0.0sdk.iad.applovinh.com
+0.0.0.0ads.unity3d.com
+0.0.0.0unityads.unity3d.com
+0.0.0.0adcolony.com
+0.0.0.0vungle.com
+0.0.0.0ironsrc.com
+0.0.0.0tapjoy.com
+0.0.0.0inmobi.com
+0.0.0.0flurry.com
+0.0.0.0admob.com
+0.0.0.0ads.admob.com
+0.0.0.0mediation.admob.com
+0.0.0.0ads.vungle.com
+0.0.0.0sdk.vungle.com
+0.0.0.0ads.applovin.com
+0.0.0.0applovin.com
+0.0.0.0ads.supersonic.com
+0.0.0.0supersonicads.com
+0.0.0.0chartboost.com
+0.0.0.0ads.chartboost.com
+0.0.0.0startapp.com
+0.0.0.0ads.startapp.com
+0.0.0.0fyber.com
+0.0.0.0ads.fyber.com
+
+# ==========================================
+# CATEGORY 3: OS TELEMETRY & METRICS
+# ==========================================
+0.0.0.0telemetry.microsoft.com
+0.0.0.0v10.events.data.microsoft.com
+0.0.0.0diagtrack.commerce.microsoft.com
+0.0.0.0settings-win.data.microsoft.com
+0.0.0.0fe3cr.delivery.mp.microsoft.com
+0.0.0.0watson.telemetry.microsoft.com
+0.0.0.0events.data.microsoft.com
+0.0.0.0metrics.icloud.com
+0.0.0.0metrics.mzstatic.com
+0.0.0.0sentry.io
+0.0.0.0crashlytics.com
+0.0.0.0app-measurement.com
+0.0.0.0api.amplitude.com
+0.0.0.0in.mixpanel.com
+0.0.0.0events.mapbox.com
+0.0.0.0collector.githubapp.com
+0.0.0.0telemetry.mozilla.org
+0.0.0.0events.mozilla.org
+0.0.0.0diagnostics.me.gvt1.com
+0.0.0.0update.googleapis.com
+0.0.0.0clientservices.googleapis.com
+
+# ==========================================
+# CATEGORY 4: SMART TVS & CONSOLES
+# ==========================================
+0.0.0.0tous.samsungcloudplatform.com
+0.0.0.0config.samsungads.com
+0.0.0.0log-config.samsungads.com
+0.0.0.0samsungads.com
+0.0.0.0lgad.smartshare.lgtvcommon.com
+0.0.0.0ads.roku.com
+0.0.0.0cooper.roku.com
+0.0.0.0scribe.logs.roku.com
+0.0.0.0ads.vizio.com
+0.0.0.0tcs.vizio.com
+0.0.0.0sjc.vizio.com
+0.0.0.0collector.vizio.com
+0.0.0.0samsungcloudplatform.com
+0.0.0.0ads.samsung.com
+0.0.0.0gator.target.com
+0.0.0.0amazon-adsystem.com
+0.0.0.0mads.amazon.com
+0.0.0.0iv.amazon.com
+0.0.0.0rcv.amazon.com
+
+# ==========================================
+# CATEGORY 5: SOCIAL PIXELS & BIDDERS
+# ==========================================
+0.0.0.0pixel.facebook.com
+0.0.0.0an.facebook.com
+0.0.0.0connect.facebook.net
+0.0.0.0snap.licdn.com
+0.0.0.0ads.linkedin.com
+0.0.0.0px.ads.linkedin.com
+0.0.0.0ads-api.twitter.com
+0.0.0.0analytics.twitter.com
+0.0.0.0t.co
+0.0.0.0ads.pinterest.com
+0.0.0.0trk.pinterest.com
+0.0.0.0analytics.pinterest.com
+0.0.0.0ads.tiktok.com
+0.0.0.0analytics.tiktok.com
+0.0.0.0lf16-effectflow.tiktok.com
+0.0.0.0events.reddit.com
+0.0.0.0ad-delivery.net
+0.0.0.0ads.pubmatic.com
+0.0.0.0ib.adnxs.com
+0.0.0.0secure.adnxs.com
+0.0.0.0bidder.criteo.com
+0.0.0.0static.criteo.net
