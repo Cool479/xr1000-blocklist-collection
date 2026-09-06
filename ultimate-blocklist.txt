@@ -1,5 +1,6 @@
 # Ultimate Comprehensive Pi-hole & DumaOS Blocklist
 # Covers Aggressive Advertising, Malware, Telemetry, Cryptominers, and Tracking
+# Includes Expanded Smart TV ACR, Peripheral, and Deep Analytics Rulesets
 
 # --- Major Advertising & Analytics Networks ---
 0.0.0.0 pagead2.googlesyndication.com
@@ -47,6 +48,74 @@
 0.0.0.0 web.vortex.data.microsoft.com
 0.0.0.0 v10.vortex-win.data.microsoft.com
 0.0.0.0 v20.vortex-win.data.microsoft.com
+
+# --- Apple Telemetry, Analytics, & Device Diagnostics ---
+0.0.0.0 appldnld.apple.com
+0.0.0.0 mesu.apple.com
+0.0.0.0 xp.apple.com
+0.0.0.0 diagnostic.apple.com
+0.0.0.0 adcdownload.apple.com
+0.0.0.0 swquery.apple.com
+0.0.0.0 appsto.re
+0.0.0.0 humb.apple.com
+0.0.0.0 metrics.icloud.com
+0.0.0.0 metrics.mzstatic.com
+0.0.0.0 iadsdk.apple.com
+0.0.0.0 advertising.apple.com
+0.0.0.0 apple-valet.apple.com
+
+# --- Xbox & Microsoft Gaming Telemetry / Diagnostics ---
+0.0.0.0 telemetry.xboxlive.com
+0.0.0.0 xsts.auth.xboxlive.com
+0.0.0.0 assist.xbox.com
+0.0.0.0 feedback.xboxlive.com
+0.0.0.0 images-eds.xboxlive.com
+0.0.0.0 xflight.xboxlive.com
+0.0.0.0 beacons.gss.xboxlive.com
+0.0.0.0 48.telemetry.microsoft.com
+0.0.0.0 oca.telemetry.microsoft.com
+
+# --- Roku Telemetry, Ad Insertion, & Tracking ---
+0.0.0.0 p.ads.roku.com
+0.0.0.0 ads.roku.com
+0.0.0.0 scribe.logs.roku.com
+0.0.0.0 cloudservices.roku.com
+0.0.0.0 admeasurement.roku.com
+0.0.0.0 coop.logs.roku.com
+0.0.0.0 necs.roku.com
+
+# --- Smart Home & IoT Device Telemetry ---
+0.0.0.0 metrics.ring.com
+0.0.0.0 analytics.nest.com
+0.0.0.0 analytics.philips.com
+0.0.0.0 us.galleryapi.micloud.xiaomi.net
+0.0.0.0 config.samsungcloudsolution.com
+0.0.0.0 device-metrics-us.amazon.com
+0.0.0.0 dev.hik-connect.com
+
+# --- Smart TV Automatic Content Recognition (ACR) & Fingerprinting ---
+0.0.0.0 isc.samba.tv
+0.0.0.0 loc.samba.tv
+0.0.0.0 ad.samba.tv
+0.0.0.0 ents.samba.tv
+0.0.0.0 acr.samba.tv
+0.0.0.0 v-tag.samba.tv
+0.0.0.0 telemetry.alphonso.tv
+0.0.0.0 sdk.alphonso.tv
+0.0.0.0 us-api.alphonso.tv
+0.0.0.0 beacon.alphonso.tv
+0.0.0.0 lgsmartad.com
+0.0.0.0 us.lgsmartad.com
+0.0.0.0 ngfts.lgsmartad.com
+
+# --- Printer & Peripheral Telemetry / Supply Check-Ins ---
+0.0.0.0 ews.hpsmart.com
+0.0.0.0 hpconnected.com
+0.0.0.0 telemetry.open.hpsmart.com
+0.0.0.0 omahaproxy.appspot.com
+0.0.0.0 epsonconnect.com
+0.0.0.0 analytics.ebz.epson.net
+0.0.0.0 bcas.brother.co.jp
 
 # --- Common Analytics SDKs & Tracking Endpoints ---
 0.0.0.0 api.amplitude.com
