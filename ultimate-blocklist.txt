@@ -1,6 +1,7 @@
 # Ultimate Comprehensive Pi-hole & DumaOS Blocklist
 # Covers Aggressive Advertising, Malware, Telemetry, Cryptominers, and Tracking
 # Includes Expanded Smart TV ACR, Peripheral, Deep Analytics, and Android Telemetry Rulesets
+# Updated: Essential Xbox Network Authentication & Connection Endpoints Restored
 
 # --- Major Advertising & Analytics Networks ---
 0.0.0.0 pagead2.googlesyndication.com
@@ -65,8 +66,8 @@
 0.0.0.0 apple-valet.apple.com
 
 # --- Xbox & Microsoft Gaming Telemetry / Diagnostics ---
+# (Critical handshake/auth servers excluded to maintain network connectivity)
 0.0.0.0 telemetry.xboxlive.com
-0.0.0.0 xsts.auth.xboxlive.com
 0.0.0.0 assist.xbox.com
 0.0.0.0 feedback.xboxlive.com
 0.0.0.0 images-eds.xboxlive.com
