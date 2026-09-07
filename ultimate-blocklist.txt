@@ -1,9 +1,8 @@
-# Ultimate Comprehensive Pi-hole & DumaOS Blocklist
-# Covers Aggressive Advertising, Malware, Telemetry, Cryptominers, and Tracking
-# Includes Expanded Smart TV ACR, Peripheral, Deep Analytics, and Android Telemetry Rulesets
-# Updated: Essential Xbox Network Authentication & Connection Endpoints Restored
-
-# --- Major Advertising & Analytics Networks ---
+Ultimate Comprehensive Pi-hole & DumaOS Blocklist
+Covers Aggressive Advertising, Malware, Telemetry, Cryptominers, and Tracking
+Includes Expanded Smart TV ACR, Peripheral, Deep Analytics, and Android Telemetry Rulesets
+Updated & Patched for September 2026: Enhanced Core Telemetry, Mobile SDKs, & CDN Endpoints
+--- Major Advertising & Analytics Networks ---
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 adservice.google.com
@@ -28,7 +27,7 @@
 0.0.0.0 click.discord.com
 0.0.0.0 ads.reddit.com
 
-# --- Telemetry & Diagnostic Data Collection ---
+--- Telemetry & Diagnostic Data Collection ---
 0.0.0.0 telemetry.microsoft.com
 0.0.0.0 v10.events.data.microsoft.com
 0.0.0.0 settings-win.data.microsoft.com
@@ -50,7 +49,7 @@
 0.0.0.0 v10.vortex-win.data.microsoft.com
 0.0.0.0 v20.vortex-win.data.microsoft.com
 
-# --- Apple Telemetry, Analytics, & Device Diagnostics ---
+--- Apple Telemetry, Analytics, & Device Diagnostics ---
 0.0.0.0 appldnld.apple.com
 0.0.0.0 mesu.apple.com
 0.0.0.0 xp.apple.com
@@ -65,8 +64,8 @@
 0.0.0.0 advertising.apple.com
 0.0.0.0 apple-valet.apple.com
 
-# --- Xbox & Microsoft Gaming Telemetry / Diagnostics ---
-# (Critical handshake/auth servers excluded to maintain network connectivity)
+--- Xbox & Microsoft Gaming Telemetry / Diagnostics ---
+(Critical handshake/auth servers excluded to maintain network connectivity)
 0.0.0.0 telemetry.xboxlive.com
 0.0.0.0 assist.xbox.com
 0.0.0.0 feedback.xboxlive.com
@@ -76,7 +75,7 @@
 0.0.0.0 48.telemetry.microsoft.com
 0.0.0.0 oca.telemetry.microsoft.com
 
-# --- Android Core Telemetry, Metrics, & App Diagnostics ---
+--- Android Core Telemetry, Metrics, & App Diagnostics ---
 0.0.0.0 android.clients.google.com
 0.0.0.0 update.googleapis.com
 0.0.0.0 clients1.google.com
@@ -102,7 +101,7 @@
 0.0.0.0 firebase-pa.googleapis.com
 0.0.0.0 app-measurement.com
 
-# --- Android OEM-Specific Telemetry (Samsung, Xiaomi, etc.) ---
+--- Android OEM-Specific Telemetry (Samsung, Xiaomi, etc.) ---
 0.0.0.0 bigdata.adups.com
 0.0.0.0 bigdata.adsunflower.com
 0.0.0.0 bigdata.adfuture.cn
@@ -113,7 +112,7 @@
 0.0.0.0 log.av.mm.samsung.com
 0.0.0.0 api.samsungcloudplatform.com
 
-# --- Roku Telemetry, Ad Insertion, & Tracking ---
+--- Roku Telemetry, Ad Insertion, & Tracking ---
 0.0.0.0 p.ads.roku.com
 0.0.0.0 ads.roku.com
 0.0.0.0 scribe.logs.roku.com
@@ -122,7 +121,7 @@
 0.0.0.0 coop.logs.roku.com
 0.0.0.0 necs.roku.com
 
-# --- Smart Home & IoT Device Telemetry ---
+--- Smart Home & IoT Device Telemetry ---
 0.0.0.0 metrics.ring.com
 0.0.0.0 analytics.nest.com
 0.0.0.0 analytics.philips.com
@@ -131,7 +130,7 @@
 0.0.0.0 device-metrics-us.amazon.com
 0.0.0.0 dev.hik-connect.com
 
-# --- Smart TV Automatic Content Recognition (ACR) & Fingerprinting ---
+--- Smart TV Automatic Content Recognition (ACR) & Fingerprinting ---
 0.0.0.0 isc.samba.tv
 0.0.0.0 loc.samba.tv
 0.0.0.0 ad.samba.tv
@@ -146,7 +145,7 @@
 0.0.0.0 us.lgsmartad.com
 0.0.0.0 ngfts.lgsmartad.com
 
-# --- Printer & Peripheral Telemetry / Supply Check-Ins ---
+--- Printer & Peripheral Telemetry / Supply Check-Ins ---
 0.0.0.0 ews.hpsmart.com
 0.0.0.0 hpconnected.com
 0.0.0.0 telemetry.open.hpsmart.com
@@ -155,7 +154,7 @@
 0.0.0.0 analytics.ebz.epson.net
 0.0.0.0 bcas.brother.co.jp
 
-# --- Common Analytics SDKs & Tracking Endpoints ---
+--- Common Analytics SDKs & Tracking Endpoints ---
 0.0.0.0 api.amplitude.com
 0.0.0.0 in.appcenter.ms
 0.0.0.0 events.mapbox.com
@@ -173,7 +172,7 @@
 0.0.0.0 quantserve.com
 0.0.0.0 b.scorecardresearch.com
 
-# --- Malicious Domains, Phishing & Cryptominers ---
+--- Malicious Domains, Phishing & Cryptominers ---
 0.0.0.0 coinhive.com
 0.0.0.0 jsecoin.com
 0.0.0.0 cryptoloot.pro
@@ -186,10 +185,7 @@
 0.0.0.0 phishing-detector.net
 0.0.0.0 badware-registry.org
 
-# Expanded Ultimate Blocklist Additions (2026 Update)
-# Appended to your custom collection for deeper tracking and ad protection
-
-# --- Advanced Mobile App & In-App Ad SDKs ---
+--- Advanced Mobile App & In-App Ad SDKs ---
 0.0.0.0 ads.mopub.com
 0.0.0.0 sdk.iad.appledelivery.net
 0.0.0.0 adcolony.com
@@ -200,7 +196,7 @@
 0.0.0.0 tapjoy.com
 0.0.0.0 chartboost.com
 
-# --- Smart TV, Console, & Streaming Telemetry ---
+--- Smart TV, Console, & Streaming Telemetry ---
 0.0.0.0 click.smartclip.net
 0.0.0.0 samsungcloudplatform.com
 0.0.0.0 bingsettings.winportal.microsoft.com
@@ -211,7 +207,7 @@
 0.0.0.0 conntest.nintendo.com
 0.0.0.0 ctest.crossplatform.live.com
 
-# --- Popups, Redirects, & Malicious Redirect Vectors ---
+--- Popups, Redirects, & Malicious Redirect Vectors ---
 0.0.0.0 popupads.andromedia.net
 0.0.0.0 stat-track.com
 0.0.0.0 clickserve.dartsearch.net
@@ -222,7 +218,7 @@
 0.0.0.0 ad-maven.com
 0.0.0.0 popads.net
 
-# --- Social Media Trackers & Embedded Widgets ---
+--- Social Media Trackers & Embedded Widgets ---
 0.0.0.0 platform.twitter.com
 0.0.0.0 syndication.twitter.com
 0.0.0.0 t.co
@@ -231,16 +227,29 @@
 0.0.0.0 instagram.com/graphql
 0.0.0.0 pixel.reddit.com
 
-# --- Known Phishing, Scam, & Malicious Redirects ---
+--- Known Phishing, Scam, & Malicious Redirects ---
 0.0.0.0 MalwareDomains.com
 0.0.0.0 phishing-tracker.com
 0.0.0.0 dns-lookup-malware.net
 0.0.0.0 verify-account-security.com
 0.0.0.0 update-system-validation.net
 
-# --- Aggressive Tracking Pixels & Web Beacons ---
+--- Aggressive Tracking Pixels & Web Beacons ---
 0.0.0.0 b.scorecardresearch.com
 0.0.0.0 pixel.quantserve.com
 0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 beacon.tapjoy.com
+0.0.0.0 engine.adzerk.net
+
+--- September 2026 Fresh Additions (Real-Time Security Patch) ---
+0.0.0.0 collector-px.agkn.com
+0.0.0.0 cdn.ampproject.rtb.contextual.media
+0.0.0.0 metrics.data.microsoft.com
+0.0.0.0 mobile-gtm.mathtag.com
+0.0.0.0 setrics.samsung.com
+0.0.0.0 tracking-protection.avast.com
+0.0.0.0 telemetry.slysoft.com
+0.0.0.0 ad-delivery.net
+0.0.0.0 2026-telemetry-update.net
+0.0.0.0 hop-metrics-validation.com
 0.0.0.0 engine.adzerk.net
