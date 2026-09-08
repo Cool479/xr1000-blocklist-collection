@@ -1,0 +1,182 @@
+# ====================================================================
+# ULTIMATE GOD-MODE DNS SINKHOLE BLOCKLIST (SUPREME AGGRESSION TIER)
+# Target: Zero Telemetry, Zero Ad-Injection, Total Local Sovereignty
+# ====================================================================
+
+# --- Core Ad Networks & Injection Vectors ---
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 adservice.google.com
+0.0.0.0 ads.pubmatic.com
+0.0.0.0 ib.adnxs.com
+0.0.0.0 ads.mopub.com
+0.0.0.0 partner.googleadservices.com
+0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 adserver.adtech.de
+0.0.0.0 ads.yahoo.com
+0.0.0.0 ads.twitter.com
+0.0.0.0 static.ads-twitter.com
+0.0.0.0 pixel.facebook.com
+0.0.0.0 an.facebook.com
+0.0.0.0 adclick.g.doubleclick.net
+0.0.0.0 pagead.l.google.com
+0.0.0.0 afs.googlesyndication.com
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 google-analytics.com
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 analytics.google.com
+0.0.0.0 click.discord.com
+0.0.0.0 ads.reddit.com
+
+# --- OS-Level Telemetry & Diagnostic Backdoors ---
+0.0.0.0 telemetry.microsoft.com
+0.0.0.0 v10.events.data.microsoft.com
+0.0.0.0 settings-win.data.microsoft.com
+0.0.0.0 feedback.windows.com
+0.0.0.0 diagnostics.support.microsoft.com
+0.0.0.0 telemetry.errbit.com
+0.0.0.0 samsungads.com
+0.0.0.0 ngfts.samsungcloudplatform.com
+0.0.0.0 samsungcloudplatform.com
+0.0.0.0 log-recollect.samsungcloudplatform.com
+0.0.0.0 collector.githubapp.com
+0.0.0.0 telemetry.choc-system.com
+0.0.0.0 tracking.katsuragawa.net
+0.0.0.0 metrics.icloud.com
+0.0.0.0 metrics.mzstatic.com
+0.0.0.0 gsp-ssl.ls.apple.com
+0.0.0.0 watson.telemetry.microsoft.com
+0.0.0.0 web.vortex.data.microsoft.com
+0.0.0.0 v10.vortex-win.data.microsoft.com
+0.0.0.0 v20.vortex-win.data.microsoft.com
+
+# --- Apple Ecosystem Diagnostics & Hardware Tracking ---
+0.0.0.0 appldnld.apple.com
+0.0.0.0 mesu.apple.com
+0.0.0.0 xp.apple.com
+0.0.0.0 diagnostic.apple.com
+0.0.0.0 adcdownload.apple.com
+0.0.0.0 swquery.apple.com
+0.0.0.0 appsto.re
+0.0.0.0 humb.apple.com
+0.0.0.0 iadsdk.apple.com
+0.0.0.0 advertising.apple.com
+0.0.0.0 apple-valet.apple.com
+
+# --- Gaming Telemetry & Hardware Fingerprinting ---
+0.0.0.0 telemetry.xboxlive.com
+0.0.0.0 assist.xbox.com
+0.0.0.0 feedback.xboxlive.com
+0.0.0.0 images-eds.xboxlive.com
+0.0.0.0 xflight.xboxlive.com
+0.0.0.0 beacons.gss.xboxlive.com
+0.0.0.0 slogger.active.com
+0.0.0.0 aslogger.nintendo.net
+0.0.0.0 conntest.nintendo.com
+0.0.0.0 ctest.crossplatform.live.com
+
+# --- Android Deep Metrics & Mobile SDK Harvesters ---
+0.0.0.0 android.clients.google.com
+0.0.0.0 update.googleapis.com
+0.0.0.0 clients1.google.com
+0.0.0.0 clients2.google.com
+0.0.0.0 clients3.google.com
+0.0.0.0 clients4.google.com
+0.0.0.0 clients5.google.com
+0.0.0.0 clients6.google.com
+0.0.0.0 mtalk.google.com
+0.0.0.0 alt1-mtalk.google.com
+0.0.0.0 alt2-mtalk.google.com
+0.0.0.0 alt3-mtalk.google.com
+0.0.0.0 alt4-mtalk.google.com
+0.0.0.0 alt5-mtalk.google.com
+0.0.0.0 alt6-mtalk.google.com
+0.0.0.0 alt7-mtalk.google.com
+0.0.0.0 alt8-mtalk.google.com
+0.0.0.0 redirector.gvt1.com
+0.0.0.0 safebrowsing.googleapis.com
+0.0.0.0 firebase-settings.crashlytics.com
+0.0.0.0 firebase-pa.googleapis.com
+0.0.0.0 app-measurement.com
+
+# --- OEM Mobile Bloat & Analytics (Xiaomi, Samsung) ---
+0.0.0.0 bigdata.adups.com
+0.0.0.0 bigdata.adsunflower.com
+0.0.0.0 bigdata.adfuture.cn
+0.0.0.0 bigdata.advmob.cn
+0.0.0.0 tracking.miui.com
+0.0.0.0 data.mistat.xiaomi.com
+0.0.0.0 tracking.intl.miui.com
+0.0.0.0 log.av.mm.samsung.com
+0.0.0.0 api.samsungcloudplatform.com
+
+# --- Smart TV Automatic Content Recognition (ACR) & Spying ---
+0.0.0.0 isc.samba.tv
+0.0.0.0 loc.samba.tv
+0.0.0.0 ad.samba.tv
+0.0.0.0 ents.samba.tv
+0.0.0.0 acr.samba.tv
+0.0.0.0 v-tag.samba.tv
+0.0.0.0 telemetry.alphonso.tv
+0.0.0.0 sdk.alphonso.tv
+0.0.0.0 us-api.alphonso.tv
+0.0.0.0 beacon.alphonso.tv
+0.0.0.0 lgsmartad.com
+0.0.0.0 us.lgsmartad.com
+0.0.0.0 ngfts.lgsmartad.com
+0.0.0.0 p.ads.roku.com
+0.0.0.0 ads.roku.com
+0.0.0.0 scribe.logs.roku.com
+0.0.0.0 cloudservices.roku.com
+0.0.0.0 admeasurement.roku.com
+
+# --- IoT, Smart Home, & Peripheral Home Beacons ---
+0.0.0.0 metrics.ring.com
+0.0.0.0 analytics.nest.com
+0.0.0.0 analytics.philips.com
+0.0.0.0 us.galleryapi.micloud.xiaomi.net
+0.0.0.0 config.samsungcloudsolution.com
+0.0.0.0 device-metrics-us.amazon.com
+0.0.0.0 dev.hik-connect.com
+0.0.0.0 ews.hpsmart.com
+0.0.0.0 hpconnected.com
+0.0.0.0 telemetry.open.hpsmart.com
+0.0.0.0 epsonconnect.com
+0.0.0.0 analytics.ebz.epson.net
+0.0.0.0 bcas.brother.co.jp
+
+# --- Commercial App-Advertising & Monetization SDKs ---
+0.0.0.0 sdk.iad.appledelivery.net
+0.0.0.0 adcolony.com
+0.0.0.0 ads.vungle.com
+0.0.0.0 unityads.unity3d.com
+0.0.0.0 ironsrc.com
+0.0.0.0 applovin.com
+0.0.0.0 tapjoy.com
+0.0.0.0 chartboost.com
+0.0.0.0 api.amplitude.com
+0.0.0.0 in.appcenter.ms
+0.0.0.0 events.mapbox.com
+0.0.0.0 segment.io
+0.0.0.0 api.mixpanel.com
+0.0.0.0 heapanalytics.com
+0.0.0.0 sentry.io
+0.0.0.0 crashlytics.com
+0.0.0.0 api.branch.io
+0.0.0.0 adjust.com
+0.0.0.0 appsflyer.com
+
+# --- Cryptojacking, Malware, & Phishing Black Holes ---
+0.0.0.0 coinhive.com
+0.0.0.0 jsecoin.com
+0.0.0.0 cryptoloot.pro
+0.0.0.0 authedmine.com
+0.0.0.0 miner.pr0gramm.com
+0.0.0.0 kissdog.net
+0.0.0.0 cnhv.co
+0.0.0.0 webminepool.com
+0.0.0.0 malware-domains.com
+0.0.0.0 phishing-detector.net
+0.0.0.0 badware-registry.org
+0.0.0.0 verify-account-security.com
+0.0.0.0 update-system-validation.net
